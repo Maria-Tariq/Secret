@@ -1,0 +1,26 @@
+name: fireworks_demo
+description: Demo app for the fireworks package.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: '>=2.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  fireworks:
+    path: ../fireworks
+
+  url_launcher: ^6.0.2
+  url_strategy: ^0.2.0
+
+dev_dependencies:
+  pedantic: ^1.11.0
+
+flutter:
+  assets:
+    - 'assets/github.png'
+    - 'assets/twitter.png'
